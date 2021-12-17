@@ -14,7 +14,7 @@ public class PrincipalTest {
 
         final List<Pair<Integer, Float>> examsGrades              = Collections.emptyList();
         final boolean  hasReachedMinimumClasses = true;
-        Assert.assertEquals(0.0, studentGradeCalculator.calculateGrades(examsGrades, hasReachedMinimumClasses));
+        Assert.assertEquals( studentGradeCalculator.calculateGrades(examsGrades, hasReachedMinimumClasses),0.0);
     }
     @Test
     void calculate_same_grade_given_one_single_exam_and_attending_the_minimum_classes() {
@@ -23,7 +23,7 @@ public class PrincipalTest {
         final List<Pair<Integer, Float>> examsGrades              = List.of(new Pair<>(100, 5f));
         final boolean                    hasReachedMinimumClasses = true;
 
-        Assert.assertEquals(5, studentGradeCalculator.calculateGrades(examsGrades, hasReachedMinimumClasses));
+        Assert.assertEquals( studentGradeCalculator.calculateGrades(examsGrades, hasReachedMinimumClasses),5);
     }
 
     @Test
@@ -44,7 +44,7 @@ public class PrincipalTest {
         );
         final boolean hasReachedMinimumClasses = true;
 //        System.out.printf(studentGradeCalculator.calculateGrades(examsGrades, hasReachedMinimumClasses));
-        Assert.assertEquals(5 , studentGradeCalculator.calculateGrades(examsGrades, hasReachedMinimumClasses));
+        Assert.assertEquals( studentGradeCalculator.calculateGrades(examsGrades, hasReachedMinimumClasses),5 );
     }
 
     @Test
@@ -57,7 +57,7 @@ public class PrincipalTest {
         );
         final boolean hasReachedMinimumClasses = true;
 
-        Assert.assertEquals(4.5f, studentGradeCalculator.calculateGrades(examsGrades, hasReachedMinimumClasses));
+        Assert.assertEquals( studentGradeCalculator.calculateGrades(examsGrades, hasReachedMinimumClasses),4.5f);
     }
 
     // hasReachedMinimumClasses
@@ -69,7 +69,7 @@ public class PrincipalTest {
         final List<Pair<Integer, Float>> examsGrades              = Collections.emptyList();
         final boolean  hasReachedMinimumClasses = false;
 
-        Assert.assertEquals(0, studentGradeCalculator.calculateGrades(examsGrades, hasReachedMinimumClasses));
+        Assert.assertEquals(studentGradeCalculator.calculateGrades(examsGrades, hasReachedMinimumClasses),0);
     }
 
     @Test
@@ -79,7 +79,7 @@ public class PrincipalTest {
         final List<Pair<Integer, Float>> examsGrades              = List.of(new Pair<>(100, 5f));
         final boolean  hasReachedMinimumClasses = false;
 
-        Assert.assertEquals(0, studentGradeCalculator.calculateGrades(examsGrades, hasReachedMinimumClasses));
+        Assert.assertEquals( studentGradeCalculator.calculateGrades(examsGrades, hasReachedMinimumClasses),0);
     }
 
     @Test
@@ -100,7 +100,7 @@ public class PrincipalTest {
         );
         final boolean hasReachedMinimumClasses = false;
 
-        Assert.assertEquals(0, studentGradeCalculator.calculateGrades(examsGrades, hasReachedMinimumClasses));
+        Assert.assertEquals(studentGradeCalculator.calculateGrades(examsGrades, hasReachedMinimumClasses),0);
     }
 
     @Test
@@ -110,7 +110,7 @@ public class PrincipalTest {
         final List<Pair<Integer, Float>> examsGrades              = List.of(new Pair<>(100, 5f));
         final boolean                    hasReachedMinimumClasses = false;
 
-        Assert.assertEquals(0, studentGradeCalculator.calculateGrades(examsGrades, hasReachedMinimumClasses));
+        Assert.assertEquals(studentGradeCalculator.calculateGrades(examsGrades, hasReachedMinimumClasses),0);
     }
 
     // Weight
@@ -125,7 +125,7 @@ public class PrincipalTest {
         );
         final boolean hasReachedMinimumClasses = true;
 
-        Assert.assertEquals(-2, studentGradeCalculator.calculateGrades(examsGrades, hasReachedMinimumClasses));
+        Assert.assertEquals( studentGradeCalculator.calculateGrades(examsGrades, hasReachedMinimumClasses),-2);
     }
 
     @Test
@@ -138,7 +138,7 @@ public class PrincipalTest {
         );
         final boolean hasReachedMinimumClasses = true;
 
-        Assert.assertEquals(-1, studentGradeCalculator.calculateGrades(examsGrades, hasReachedMinimumClasses));
+        Assert.assertEquals( studentGradeCalculator.calculateGrades(examsGrades, hasReachedMinimumClasses),-1);
     }
 
     // hasToRaiseOnePoint
@@ -150,7 +150,7 @@ public class PrincipalTest {
         final List<Pair<Integer, Float>> examsGrades              = List.of(new Pair<>(100, 9.8f));
         final boolean                    hasReachedMinimumClasses = true;
 
-        Assert.assertEquals(9.8f, studentGradeCalculator.calculateGrades(examsGrades, hasReachedMinimumClasses));
+        Assert.assertEquals( studentGradeCalculator.calculateGrades(examsGrades, hasReachedMinimumClasses),9.8f);
     }
 
     @Test
@@ -160,7 +160,7 @@ public class PrincipalTest {
         final List<Pair<Integer, Float>> examsGrades              = List.of(new Pair<>(100, 5f));
         final boolean                    hasReachedMinimumClasses = true;
 
-        Assert.assertEquals(6, studentGradeCalculator.calculateGrades(examsGrades, hasReachedMinimumClasses));
+        Assert.assertEquals( studentGradeCalculator.calculateGrades(examsGrades, hasReachedMinimumClasses),6);
     }
 
     @Test
@@ -170,18 +170,8 @@ public class PrincipalTest {
         final List<Pair<Integer, Float>> examsGrades              = List.of(new Pair<>(100, 9.8f));
         final boolean                    hasReachedMinimumClasses = true;
 
-        Assert.assertEquals(10, studentGradeCalculator.calculateGrades(examsGrades, hasReachedMinimumClasses));
+        Assert.assertEquals( studentGradeCalculator.calculateGrades(examsGrades, hasReachedMinimumClasses),10);
     }
 
-//    @Test
-//    void maintain_with_TP(){
 
-//        Principal studentGradeCalculator = new Principal(2020);
-//        final List<Pair<Integer, Float>> examsGrades              = List.of(new Pair<>(100, 9.8f));
-//        final boolean                    hasReachedMinimumClasses = true;
-//
-//        Assert.assertEquals(10, studentGradeCalculator.calculateGrades(examsGrades, hasReachedMinimumClasses));
-
-
-//    }
 }

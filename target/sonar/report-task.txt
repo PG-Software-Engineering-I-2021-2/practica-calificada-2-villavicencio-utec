@@ -3,5 +3,5 @@ projectKey=org.example:practica-calificada-2-villavicencio-utec
 serverUrl=https://sonarcloud.io
 serverVersion=8.0.0.25558
 dashboardUrl=https://sonarcloud.io/dashboard?id=org.example%3Apractica-calificada-2-villavicencio-utec
-ceTaskId=AX3F3aFp3dLMNBULtAFF
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AX3F3aFp3dLMNBULtAFF
+ceTaskId=AX3F4fKZqZ6t5gDLLGPW
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AX3F4fKZqZ6t5gDLLGPW

@@ -1,16 +1,38 @@
 
-(practica2.Pair#first()Ljava/lang/Object;•
-Š/Users/villavant/Documents/Master Computer Science/IS/practica2/practica-calificada-2-villavicencio-utec/src/main/java/practica2/Pair.java ("1*
-1•
-Š/Users/villavant/Documents/Master Computer Science/IS/practica2/practica-calificada-2-villavicencio-utec/src/main/java/practica2/Pair.java (Ñ
-Î
-•
-Š/Users/villavant/Documents/Master Computer Science/IS/practica2/practica-calificada-2-villavicencio-utec/src/main/java/practica2/Pair.java (
-%0	FirstType"__id**
-practica2.Pair"
-first"«
-•
-Š/Users/villavant/Documents/Master Computer Science/IS/practica2/practica-calificada-2-villavicencio-utec/src/main/java/practica2/Pair.java (
-
-%0	FirstTypeB
-practica2.Pair
+4practica.Principal#isProfesorTC(Lpractica/Teacher;)Z™
+Ž/Users/villavant/Documents/Master Computer Science/IS/practica2/practica-calificada-2-villavicencio-utec/src/main/java/practica/Principal.javaS S("4*ì
+2™
+Ž/Users/villavant/Documents/Master Computer Science/IS/practica2/practica-calificada-2-villavicencio-utec/src/main/java/practica/Principal.javaT@ T(EÅ
+Â
+™
+Ž/Users/villavant/Documents/Master Computer Science/IS/practica2/practica-calificada-2-villavicencio-utec/src/main/java/practica/Principal.javaT@ T(E
+%1boolean"__id*
+
+%3boolean*
+1*ì
+3™
+Ž/Users/villavant/Documents/Master Computer Science/IS/practica2/practica-calificada-2-villavicencio-utec/src/main/java/practica/Principal.javaT: T(>Å
+Â
+™
+Ž/Users/villavant/Documents/Master Computer Science/IS/practica2/practica-calificada-2-villavicencio-utec/src/main/java/practica/Principal.javaT: T(>
+%1boolean"__id*
+
+%2boolean*
+1*»
+4™
+Ž/Users/villavant/Documents/Master Computer Science/IS/practica2/practica-calificada-2-villavicencio-utec/src/main/java/practica/Principal.javaT T(‘Ž
+™
+Ž/Users/villavant/Documents/Master Computer Science/IS/practica2/practica-calificada-2-villavicencio-utec/src/main/java/practica/Principal.javaT T(#
+%0java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*
+
+	prTeacherpractica.Teacher2
+getClass()*
+2
+3*Æ
+1™
+Ž/Users/villavant/Documents/Master Computer Science/IS/practica2/practica-calificada-2-villavicencio-utec/src/main/java/practica/Principal.javaT T(F"¤
+™
+Ž/Users/villavant/Documents/Master Computer Science/IS/practica2/practica-calificada-2-villavicencio-utec/src/main/java/practica/Principal.javaT T(F
+"":
+	prTeacherpractica.TeacherB
+practica.Principal

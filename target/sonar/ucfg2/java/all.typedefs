@@ -15,30 +15,36 @@ getClass(),java.lang.Object#getClass()Ljava/lang/Class;5
 notifyAll()java.lang.Object#notifyAll()V"
 wait()java.lang.Object#wait()V*
 
-hashCode()java.lang.Object#hashCode()Ir
-practica2.Teacherjava.lang.ObjectK
-<init>(Ljava/lang/String;)-practica2.Teacher#<init>(Ljava/lang/String;)V±
-practica2.Administrativopractica2.Teacher.
-Sueldo()"practica2.Administrativo#Sueldo()IR
-<init>(Ljava/lang/String;)4practica2.Administrativo#<init>(Ljava/lang/String;)VN
-practica2.Studentjava.lang.Object'
-<init>()practica2.Student#<init>()Vö
-practica2.Pregadopractica2.StudentK
-<init>(Ljava/lang/String;)-practica2.Pregado#<init>(Ljava/lang/String;)V%
-Grado()practica2.Pregado#Grado()I†
-practica2.Doctoradopractica2.StudentM
-<init>(Ljava/lang/String;)/practica2.Doctorado#<init>(Ljava/lang/String;)V'
-Grado()practica2.Doctorado#Grado()I•
-practica2.ProfesorTCpractica2.Teacher*
-Sueldo()practica2.ProfesorTC#Sueldo()IN
-<init>(Ljava/lang/String;)0practica2.ProfesorTC#<init>(Ljava/lang/String;)VÔ
-practica2.Principaljava.lang.ObjectU
-isHasToIncreaseOneExtraPoint()3practica2.Principal#isHasToIncreaseOneExtraPoint()ZK
-main([Ljava/lang/String;).practica2.Principal#main([Ljava/lang/String;)V[
-!isProfesorTC(Lpractica2/Teacher;)6practica2.Principal#isProfesorTC(Lpractica2/Teacher;)Z+
-	<init>(I)practica2.Principal#<init>(I)V]
-"calculateGrades(Ljava/util/List;Z)7practica2.Principal#calculateGrades(Ljava/util/List;Z)F9
-formatFloat(ZFI)%practica2.Principal#formatFloat(ZFI)F÷
+hashCode()java.lang.Object#hashCode()Ip
+practica.Teacherjava.lang.ObjectJ
+<init>(Ljava/lang/String;),practica.Teacher#<init>(Ljava/lang/String;)V≠
+practica.Administrativopractica.Teacher-
+Sueldo()!practica.Administrativo#Sueldo()IQ
+<init>(Ljava/lang/String;)3practica.Administrativo#<init>(Ljava/lang/String;)V°
+practica.ProfesorTCpractica.Teacher)
+Sueldo()practica.ProfesorTC#Sueldo()IM
+<init>(Ljava/lang/String;)/practica.ProfesorTC#<init>(Ljava/lang/String;)V¶
+practica.Pairjava.lang.Object[
+$getGradesWeightSum(Ljava/util/List;)3practica.Pair#getGradesWeightSum(Ljava/util/List;)I2
+first()'practica.Pair#first()Ljava/lang/Object;O
+getGradesSum(Ljava/util/List;)-practica.Pair#getGradesSum(Ljava/util/List;)F4
+second()(practica.Pair#second()Ljava/lang/Object;k
+,<init>(Ljava/lang/Object;Ljava/lang/Object;);practica.Pair#<init>(Ljava/lang/Object;Ljava/lang/Object;)V°
+practica.ProfesorTPpractica.Teacher)
+Sueldo()practica.ProfesorTP#Sueldo()IM
+<init>(Ljava/lang/String;)/practica.ProfesorTP#<init>(Ljava/lang/String;)VL
+practica.Studentjava.lang.Object&
+<init>()practica.Student#<init>()Vú
+practica.Doctoradopractica.StudentL
+<init>(Ljava/lang/String;).practica.Doctorado#<init>(Ljava/lang/String;)V&
+Grado()practica.Doctorado#Grado()IÊ
+practica.Principaljava.lang.ObjectX
+ isProfesorTC(Lpractica/Teacher;)4practica.Principal#isProfesorTC(Lpractica/Teacher;)ZT
+isHasToIncreaseOneExtraPoint()2practica.Principal#isHasToIncreaseOneExtraPoint()ZJ
+main([Ljava/lang/String;)-practica.Principal#main([Ljava/lang/String;)V*
+	<init>(I)practica.Principal#<init>(I)V\
+"calculateGrades(Ljava/util/List;Z)6practica.Principal#calculateGrades(Ljava/util/List;Z)F8
+formatFloat(ZFI)$practica.Principal#formatFloat(ZFI)F÷
 java.lang.Iterablejava.lang.Objectd
 &forEach(Ljava/util/function/Consumer;):java.lang.Iterable#forEach(Ljava/util/function/Consumer;)VH
 spliterator()7java.lang.Iterable#spliterator()Ljava/util/Spliterator;å
@@ -64,13 +70,7 @@ pof(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljav
 (of(Ljava/lang/Object;Ljava/lang/Object;)Gjava.util.List#of(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/List;L
 sort(Ljava/util/Comparator;),java.util.List#sort(Ljava/util/Comparator;)Vª
 Lof(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)kjava.util.List#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/List;_
-copyOf(Ljava/util/Collection;)=java.util.List#copyOf(Ljava/util/Collection;)Ljava/util/List;¨
-practica2.Pairjava.lang.Object\
-$getGradesWeightSum(Ljava/util/List;)4practica2.Pair#getGradesWeightSum(Ljava/util/List;)I3
-first()(practica2.Pair#first()Ljava/lang/Object;P
-getGradesSum(Ljava/util/List;).practica2.Pair#getGradesSum(Ljava/util/List;)F5
-second())practica2.Pair#second()Ljava/lang/Object;l
-,<init>(Ljava/lang/Object;Ljava/lang/Object;)<practica2.Pair#<init>(Ljava/lang/Object;Ljava/lang/Object;)V(
+copyOf(Ljava/util/Collection;)=java.util.List#copyOf(Ljava/util/Collection;)Ljava/util/List;(
 java.lang.Comparablejava.lang.Object0
 java.lang.constant.Constablejava.lang.Object3
 java.lang.constant.ConstantDescjava.lang.Object(
@@ -237,10 +237,10 @@ ulogp(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Th
 @entering(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)Zjava.util.logging.Logger#entering(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)VN
 info(Ljava/lang/String;)2java.util.logging.Logger#info(Ljava/lang/String;)Vx
 -exiting(Ljava/lang/String;Ljava/lang/String;)Gjava.util.logging.Logger#exiting(Ljava/lang/String;Ljava/lang/String;)V®
-Elog(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/Throwable;)_java.util.logging.Logger#log(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/Throwable;)V•
-practica2.ProfesorTPpractica2.Teacher*
-Sueldo()practica2.ProfesorTP#Sueldo()IN
-<init>(Ljava/lang/String;)0practica2.ProfesorTP#<init>(Ljava/lang/String;)Vù
-practica2.Maestriapractica2.StudentL
-<init>(Ljava/lang/String;).practica2.Maestria#<init>(Ljava/lang/String;)V&
-Grado()practica2.Maestria#Grado()I
+Elog(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/Throwable;)_java.util.logging.Logger#log(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/Throwable;)Vñ
+practica.Pregadopractica.StudentJ
+<init>(Ljava/lang/String;),practica.Pregado#<init>(Ljava/lang/String;)V$
+Grado()practica.Pregado#Grado()Iô
+practica.Maestriapractica.StudentK
+<init>(Ljava/lang/String;)-practica.Maestria#<init>(Ljava/lang/String;)V%
+Grado()practica.Maestria#Grado()I
