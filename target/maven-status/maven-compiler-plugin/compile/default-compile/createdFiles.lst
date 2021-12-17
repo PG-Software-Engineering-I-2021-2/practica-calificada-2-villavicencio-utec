@@ -1,10 +1,10 @@
 practica/Administrativo.class
 practica/Maestria.class
+practica/Pregrado.class
 practica/Teacher.class
 practica/Student.class
-practica/Pregado.class
+practica/Pair.class
 practica/Doctorado.class
 practica/ProfesorTC.class
-practica/ProfesorTP.class
-practica/Pair.class
 practica/Principal.class
+practica/ProfesorTP.class

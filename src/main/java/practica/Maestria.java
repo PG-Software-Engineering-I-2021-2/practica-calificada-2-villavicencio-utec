@@ -5,7 +5,15 @@ public class Maestria extends  Student{
     Maestria(String nombre){
         this.nombre =nombre;
     }
-    public int Grado(){
+    public int grado(){
         return notaBase + 1;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
     }
 }

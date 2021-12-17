@@ -8,6 +8,6 @@ public class ProfesorTCTest {
     @Test
     void fail_sueldo() {
         ProfesorTC profesorTC = new ProfesorTC("profesor 1");
-        Assert.assertEquals( profesorTC.Sueldo(),1500);
+        Assert.assertEquals( profesorTC.sueldo(),1500);
     }
 }

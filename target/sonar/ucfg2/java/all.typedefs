@@ -237,10 +237,10 @@ ulogp(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Th
 @entering(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)Zjava.util.logging.Logger#entering(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)VN
 info(Ljava/lang/String;)2java.util.logging.Logger#info(Ljava/lang/String;)Vx
 -exiting(Ljava/lang/String;Ljava/lang/String;)Gjava.util.logging.Logger#exiting(Ljava/lang/String;Ljava/lang/String;)V¨
-Elog(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/Throwable;)_java.util.logging.Logger#log(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/Throwable;)V–
-practica.Pregadopractica.StudentJ
-<init>(Ljava/lang/String;),practica.Pregado#<init>(Ljava/lang/String;)V$
-Grado()practica.Pregado#Grado()I™
+Elog(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/Throwable;)_java.util.logging.Logger#log(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/Throwable;)V™
+practica.Pregradopractica.StudentK
+<init>(Ljava/lang/String;)-practica.Pregrado#<init>(Ljava/lang/String;)V%
+Grado()practica.Pregrado#Grado()I™
 practica.Maestriapractica.StudentK
 <init>(Ljava/lang/String;)-practica.Maestria#<init>(Ljava/lang/String;)V%
 Grado()practica.Maestria#Grado()I

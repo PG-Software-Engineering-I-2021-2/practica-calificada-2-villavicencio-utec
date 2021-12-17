@@ -5,7 +5,7 @@ abstract public  class Teacher {
     int comision = 500;
     int bonus = 100;
     String nombre ;
-    abstract int Sueldo() ;
+    abstract int sueldo() ;
     Teacher(String nombre){
         this.nombre = nombre;
     }

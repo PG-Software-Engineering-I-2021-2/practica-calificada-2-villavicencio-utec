@@ -5,7 +5,8 @@ public class Doctorado extends  Student{
     Doctorado(String nombre){
         this.nombre =nombre;
     }
-    public int Grado(){
+    public int grado(){
         return notaBase + 2;
     }
+
 }

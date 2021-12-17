@@ -7,6 +7,6 @@ public class DoctoradoTest {
     @Test
     void fail_grado() {
         Doctorado doctorado = new Doctorado("doctorado 1");
-        Assert.assertEquals(doctorado.Grado(),13 );
+        Assert.assertEquals(doctorado.grado(),13 );
     }
 }

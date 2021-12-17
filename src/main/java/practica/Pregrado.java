@@ -5,7 +5,15 @@ public class Pregrado extends  Student{
     Pregrado(String nombre){
         this.nombre =nombre;
     }
-    public int Grado(){
+    public int grado(){
         return notaBase;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
     }
 }
