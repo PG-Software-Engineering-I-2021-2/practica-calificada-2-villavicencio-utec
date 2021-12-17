@@ -3,9 +3,11 @@ package practica2;
 import java.util.AbstractMap;
 import java.util.List;
 import java.util.Map;
+import java.util.logging.Logger;
 
 
 public class Principal {
+    private static final Logger LOGGER = Logger.getLogger(Principal.class.getName());
     final private Map<Integer, List<Pair<Teacher, Boolean>>> allYearsTeachers = Map.ofEntries(
             new AbstractMap.SimpleImmutableEntry<>(
                     2020,
@@ -65,17 +67,15 @@ public class Principal {
     private boolean isHasToIncreaseOneExtraPoint() {
         boolean hasToIncreaseOneExtraPoint = false;
         for (Map.Entry<Integer, List<Pair<Teacher, Boolean>>> yearlyTeachers : allYearsTeachers.entrySet()) {
-            if (!(yearToCalculate != yearlyTeachers.getKey())) {
+            if (yearToCalculate == yearlyTeachers.getKey()) {
                 List<Pair<Teacher, Boolean>> teachers = yearlyTeachers.getValue();
                 for (Pair<Teacher, Boolean> teacher : teachers) {
                     if (teacher.second() != true && isProfesorTC(teacher.first())) {
                         continue;
                     }
                     hasToIncreaseOneExtraPoint = true;
-                    System.out.printf(teacher.first().nombre);
+                    LOGGER.info(teacher.first().nombre);
                 }
-            } else {
-                continue;
             }
         }
         return hasToIncreaseOneExtraPoint;
@@ -85,6 +85,6 @@ public class Principal {
     }
 
     public static void main(String[] args) {
-        System.out.println("Hola");
+        LOGGER.info("Hola");
     }
 }

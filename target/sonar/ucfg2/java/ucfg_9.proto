@@ -1,18 +1,62 @@
 
-Pair#second()Ljava/lang/Object;ã
-Ä/Users/villavant/Documents/Master Computer Science/IS/practica2/practica-calificada-2-villavicencio-utec/src/main/java/Pair.java ("1*¯
-1ã
-Ä/Users/villavant/Documents/Master Computer Science/IS/practica2/practica-calificada-2-villavicencio-utec/src/main/java/Pair.java (ø
-º
-ã
-Ä/Users/villavant/Documents/Master Computer Science/IS/practica2/practica-calificada-2-villavicencio-utec/src/main/java/Pair.java (
-%0
-SecondType"__id**
-Pair"
-second"¢
-ã
-Ä/Users/villavant/Documents/Master Computer Science/IS/practica2/practica-calificada-2-villavicencio-utec/src/main/java/Pair.java (
-
-%0
-SecondTypeB
-Pair
+7practica2.Principal#calculateGrades(Ljava/util/List;Z)Fö
+è/Users/villavant/Documents/Master Computer Science/IS/practica2/practica-calificada-2-villavicencio-utec/src/main/java/practica2/Principal.java" "( "3*Ñ
+2ö
+è/Users/villavant/Documents/Master Computer Science/IS/practica2/practica-calificada-2-villavicencio-utec/src/main/java/practica2/Principal.java$" $(#∆√
+ö
+è/Users/villavant/Documents/Master Computer Science/IS/practica2/practica-calificada-2-villavicencio-utec/src/main/java/practica2/Principal.java$ $(!
+%1practica2.Pair"practica2.Pairà
+Ö
+ö
+è/Users/villavant/Documents/Master Computer Science/IS/practica2/practica-calificada-2-villavicencio-utec/src/main/java/practica2/Principal.java$ $(&
+%2"<practica2.Pair#<init>(Ljava/lang/Object;Ljava/lang/Object;)V*
+
+%1practica2.Pair*2*2◊
+‘
+ö
+è/Users/villavant/Documents/Master Computer Science/IS/practica2/practica-calificada-2-villavicencio-utec/src/main/java/practica2/Principal.java$ $('
+lPairpractica2.Pair"__id*
+
+%1practica2.Pairª∏
+ö
+è/Users/villavant/Documents/Master Computer Science/IS/practica2/practica-calificada-2-villavicencio-utec/src/main/java/practica2/Principal.java&$ &(E
+%3float".practica2.Pair#getGradesSum(Ljava/util/List;)F*
+
+lPairpractica2.Pair*!
+
+examsStudentsjava.util.List2getGradesSum(Ljava/util/List;)≈¬
+ö
+è/Users/villavant/Documents/Master Computer Science/IS/practica2/practica-calificada-2-villavicencio-utec/src/main/java/practica2/Principal.java'$ '(K	
+%4int"4practica2.Pair#getGradesWeightSum(Ljava/util/List;)I*
+
+lPairpractica2.Pair*!
+
+examsStudentsjava.util.List2$getGradesWeightSum(Ljava/util/List;)Ö
+Ç
+ö
+è/Users/villavant/Documents/Master Computer Science/IS/practica2/practica-calificada-2-villavicencio-utec/src/main/java/practica2/Principal.java) )(T
+%5float"%practica2.Principal#formatFloat(ZFI)F*
+practica2.Principal*
+""*
+""*
+"""•
+ö
+è/Users/villavant/Documents/Master Computer Science/IS/practica2/practica-calificada-2-villavicencio-utec/src/main/java/practica2/Principal.java) )(U
+""*£
+3ö
+è/Users/villavant/Documents/Master Computer Science/IS/practica2/practica-calificada-2-villavicencio-utec/src/main/java/practica2/Principal.java# #(¯ı
+ö
+è/Users/villavant/Documents/Master Computer Science/IS/practica2/practica-calificada-2-villavicencio-utec/src/main/java/practica2/Principal.java# #($
+%0boolean"java.util.List#isEmpty()Z*!
+
+examsStudentsjava.util.List2	isEmpty()*
+2
+1*»
+1ö
+è/Users/villavant/Documents/Master Computer Science/IS/practica2/practica-calificada-2-villavicencio-utec/src/main/java/practica2/Principal.java, ,("•
+ö
+è/Users/villavant/Documents/Master Computer Science/IS/practica2/practica-calificada-2-villavicencio-utec/src/main/java/practica2/Principal.java, ,(
+"":
+examsStudentsjava.util.List:
+""B
+practica2.Principal
