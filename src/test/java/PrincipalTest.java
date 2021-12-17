@@ -42,8 +42,8 @@ public class PrincipalTest {
                 new Pair<>(10, 10f)
         );
         final boolean hasReachedMinimumClasses = true;
-
-        Assert.assertEquals(5, studentGradeCalculator.calculateGrades(examsGrades, hasReachedMinimumClasses));
+//        System.out.printf(studentGradeCalculator.calculateGrades(examsGrades, hasReachedMinimumClasses));
+        Assert.assertEquals(5 , studentGradeCalculator.calculateGrades(examsGrades, hasReachedMinimumClasses));
     }
 
     @Test

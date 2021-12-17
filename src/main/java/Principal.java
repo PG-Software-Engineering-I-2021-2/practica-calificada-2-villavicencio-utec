@@ -8,17 +8,17 @@ public class Principal {
             new AbstractMap.SimpleImmutableEntry<>(
                     2020,
                     List.of(
-                            new Pair<>( new ProfesorTP("Josefina"), true),
-                            new Pair<>( new ProfesorTP("Edonisio"), true),
-                            new Pair<>( new ProfesorTP("Edufasio"), false)
+                            new Pair<>( new ProfesorTC("Josefina"), true),
+                            new Pair<>( new ProfesorTC("Edonisio"), true),
+                            new Pair<>( new ProfesorTC("Edufasio"), false)
                     )
             ),
             new AbstractMap.SimpleImmutableEntry<>(
                     2019,
                     List.of(
-                            new Pair<>( new ProfesorTP("Eduarda"), false),
-                            new Pair<>( new ProfesorTP("Abelardo"), false),
-                            new Pair<>( new ProfesorTP("Francisca"), false)
+                            new Pair<>( new ProfesorTC("Eduarda"), false),
+                            new Pair<>( new ProfesorTC("Abelardo"), false),
+                            new Pair<>( new ProfesorTC("Francisca"), false)
                     )
             )
     );

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="PrincipalTest">
+        <methods>
+          <include name="not_increase_one_extra_point_if_there_is_not_any_benevolent_teacher_in_the_year_to_calculate_grades"/>
+          <include name="calculate_same_grade_given_one_single_exam_and_attending_the_minimum_classes"/>
+          <include name="calculate_average_grade_given_different_exam_grades_and_attending_the_minimum_classes"/>
+          <include name="round_up_to_2_decimals_given_odd_exam_grades_and_attending_the_minimum_classes"/>
+        </methods>
+      </class> <!-- PrincipalTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

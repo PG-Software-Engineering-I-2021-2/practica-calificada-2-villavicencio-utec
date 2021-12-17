@@ -1,4 +1,20 @@
 -------------------------------------------------------------------------------
 Test set: PrincipalTest
 -------------------------------------------------------------------------------
-Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.209 s - in PrincipalTest
+Tests run: 13, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 4.87 s <<< FAILURE! - in PrincipalTest
+calculate_average_grade_given_different_exam_grades_and_attending_the_minimum_classes(PrincipalTest)  Time elapsed: 0.132 s  <<< FAILURE!
+java.lang.AssertionError: expected [6.0] but found [5.0]
+	at PrincipalTest.calculate_average_grade_given_different_exam_grades_and_attending_the_minimum_classes(PrincipalTest.java:46)
+
+calculate_same_grade_given_one_single_exam_and_attending_the_minimum_classes(PrincipalTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected [6.0] but found [5.0]
+	at PrincipalTest.calculate_same_grade_given_one_single_exam_and_attending_the_minimum_classes(PrincipalTest.java:25)
+
+not_increase_one_extra_point_if_there_is_not_any_benevolent_teacher_in_the_year_to_calculate_grades(PrincipalTest)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: expected [10.0] but found [9.8]
+	at PrincipalTest.not_increase_one_extra_point_if_there_is_not_any_benevolent_teacher_in_the_year_to_calculate_grades(PrincipalTest.java:152)
+
+round_up_to_2_decimals_given_odd_exam_grades_and_attending_the_minimum_classes(PrincipalTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected [5.5] but found [4.5]
+	at PrincipalTest.round_up_to_2_decimals_given_odd_exam_grades_and_attending_the_minimum_classes(PrincipalTest.java:59)
+
