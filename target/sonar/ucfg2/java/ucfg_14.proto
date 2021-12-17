@@ -1,0 +1,90 @@
+
+)Principal#isHasToIncreaseOneExtraPoint()Zê
+Ö/Users/villavant/Documents/Master Computer Science/IS/practica2/practica-calificada-2-villavicencio-utec/src/main/java/Principal.java? ?(0"11*ÿ
+2ê
+Ö/Users/villavant/Documents/Master Computer Science/IS/practica2/practica-calificada-2-villavicencio-utec/src/main/java/Principal.javaB B(LÀ
+»
+ê
+Ö/Users/villavant/Documents/Master Computer Science/IS/practica2/practica-calificada-2-villavicencio-utec/src/main/java/Principal.javaB B(L%
+yearlyTeachersjava.util.Map$Entry"__id*
+""Ë
+Â
+ê
+Ö/Users/villavant/Documents/Master Computer Science/IS/practica2/practica-calificada-2-villavicencio-utec/src/main/java/Principal.javaB B(L%
+yearlyTeachersjava.util.Map$Entry"
+__arrayGet*
+
+%1java.util.Set*
+""*
+10
+1*≤
+4ê
+Ö/Users/villavant/Documents/Master Computer Science/IS/practica2/practica-calificada-2-villavicencio-utec/src/main/java/Principal.javaE E(3µ
+≤
+ê
+Ö/Users/villavant/Documents/Master Computer Science/IS/practica2/practica-calificada-2-villavicencio-utec/src/main/java/Principal.javaE E(3
+teacherPair"__id*
+""Ÿ
+÷
+ê
+Ö/Users/villavant/Documents/Master Computer Science/IS/practica2/practica-calificada-2-villavicencio-utec/src/main/java/Principal.javaE E(3
+teacherPair"
+__arrayGet*
+
+teachersjava.util.List*
+""*
+2
+7*ã
+7ê
+Ö/Users/villavant/Documents/Master Computer Science/IS/practica2/practica-calificada-2-villavicencio-utec/src/main/java/Principal.javaF F(ÌÍ
+ê
+Ö/Users/villavant/Documents/Master Computer Science/IS/practica2/practica-calificada-2-villavicencio-utec/src/main/java/Principal.javaF F((
+%4java.lang.Boolean"Pair#second()Ljava/lang/Object;*
+
+teacherPair2second()*
+4*Ñ
+9ê
+Ö/Users/villavant/Documents/Master Computer Science/IS/practica2/practica-calificada-2-villavicencio-utec/src/main/java/Principal.javaD8 D(Fìê
+ê
+Ö/Users/villavant/Documents/Master Computer Science/IS/practica2/practica-calificada-2-villavicencio-utec/src/main/java/Principal.javaD8 D(Q
+%3java.util.List"0java.util.Map$Entry#getValue()Ljava/lang/Object;*'
+%
+yearlyTeachersjava.util.Map$Entry2
+getValue()–
+Õ
+ê
+Ö/Users/villavant/Documents/Master Computer Science/IS/practica2/practica-calificada-2-villavicencio-utec/src/main/java/Principal.javaD D(R
+teachersjava.util.List"__id*
+
+%3java.util.List*
+4*¥
+10ê
+Ö/Users/villavant/Documents/Master Computer Science/IS/practica2/practica-calificada-2-villavicencio-utec/src/main/java/Principal.javaC C(!íè
+ê
+Ö/Users/villavant/Documents/Master Computer Science/IS/practica2/practica-calificada-2-villavicencio-utec/src/main/java/Principal.javaC% C(<
+%2java.lang.Integer".java.util.Map$Entry#getKey()Ljava/lang/Object;*'
+%
+yearlyTeachersjava.util.Map$Entry2getKey()*
+2
+9*Ô
+11ê
+Ö/Users/villavant/Documents/Master Computer Science/IS/practica2/practica-calificada-2-villavicencio-utec/src/main/java/Principal.javaBO B(_÷
+”
+ê
+Ö/Users/villavant/Documents/Master Computer Science/IS/practica2/practica-calificada-2-villavicencio-utec/src/main/java/Principal.javaBO B(_
+%0java.util.Map"__id*#*!
+	Principal"
+allYearsTeachers˜Ù
+ê
+Ö/Users/villavant/Documents/Master Computer Science/IS/practica2/practica-calificada-2-villavicencio-utec/src/main/java/Principal.javaBO B(j
+%1java.util.Set"'java.util.Map#entrySet()Ljava/util/Set;*
+
+%0java.util.Map2
+entrySet()*
+2*¥
+1ê
+Ö/Users/villavant/Documents/Master Computer Science/IS/practica2/practica-calificada-2-villavicencio-utec/src/main/java/Principal.javaO O()"õ
+ê
+Ö/Users/villavant/Documents/Master Computer Science/IS/practica2/practica-calificada-2-villavicencio-utec/src/main/java/Principal.javaO O(*
+""B
+	Principal
