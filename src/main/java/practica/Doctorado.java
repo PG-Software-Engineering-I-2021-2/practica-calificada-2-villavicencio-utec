@@ -1,4 +1,4 @@
-package practica2;
+package practica;
 
 public class Doctorado extends  Student{
     private String nombre ;

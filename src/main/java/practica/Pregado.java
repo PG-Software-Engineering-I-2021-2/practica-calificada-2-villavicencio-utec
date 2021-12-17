@@ -1,4 +1,4 @@
-package practica2;
+package practica;
 
 public class Pregado extends  Student{
     private String nombre ;

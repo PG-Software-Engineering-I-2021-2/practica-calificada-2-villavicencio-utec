@@ -1,4 +1,4 @@
-package practica2;
+package practica;
 
 public class Administrativo extends  Teacher{
     Administrativo(String nombre){

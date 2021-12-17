@@ -1,9 +1,7 @@
-package practica2;
+package practica;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import practica2.Pair;
-import practica2.Principal;
 
 import java.util.Collections;
 import java.util.List;
@@ -174,4 +172,16 @@ public class PrincipalTest {
 
         Assert.assertEquals(10, studentGradeCalculator.calculateGrades(examsGrades, hasReachedMinimumClasses));
     }
+
+//    @Test
+//    void maintain_with_TP(){
+
+//        Principal studentGradeCalculator = new Principal(2020);
+//        final List<Pair<Integer, Float>> examsGrades              = List.of(new Pair<>(100, 9.8f));
+//        final boolean                    hasReachedMinimumClasses = true;
+//
+//        Assert.assertEquals(10, studentGradeCalculator.calculateGrades(examsGrades, hasReachedMinimumClasses));
+
+
+//    }
 }

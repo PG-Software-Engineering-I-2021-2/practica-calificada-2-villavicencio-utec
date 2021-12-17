@@ -1,4 +1,4 @@
-package practica2;
+package practica;
 
 import java.util.List;
 

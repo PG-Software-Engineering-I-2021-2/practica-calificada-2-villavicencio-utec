@@ -1,4 +1,4 @@
-package practica2;
+package practica;
 
 abstract public class Student {
     int notaBase =11;

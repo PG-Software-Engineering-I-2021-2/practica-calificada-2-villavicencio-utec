@@ -1,4 +1,4 @@
-package practica2;
+package practica;
 
 public class Maestria extends  Student{
     private String nombre ;
