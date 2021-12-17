@@ -15,17 +15,18 @@ getClass(),java.lang.Object#getClass()Ljava/lang/Class;5
 notifyAll()java.lang.Object#notifyAll()V"
 wait()java.lang.Object#wait()V*
 
-hashCode()java.lang.Object#hashCode()I:
-Teacherjava.lang.Object
-<init>()Teacher#<init>()V}
+hashCode()java.lang.Object#hashCode()I^
+Teacherjava.lang.ObjectA
+<init>(Ljava/lang/String;)#Teacher#<init>(Ljava/lang/String;)V}
 
 ProfesorTPTeacher 
 Sueldo()ProfesorTP#Sueldo()ID
-<init>(Ljava/lang/String;)&ProfesorTP#<init>(Ljava/lang/String;)V}
-
-ProfesorTCTeacher 
-Sueldo()ProfesorTC#Sueldo()ID
-<init>(Ljava/lang/String;)&ProfesorTC#<init>(Ljava/lang/String;)V‰
+<init>(Ljava/lang/String;)&ProfesorTP#<init>(Ljava/lang/String;)V:
+Studentjava.lang.Object
+<init>()Student#<init>()Vu
+MaestriaStudentB
+<init>(Ljava/lang/String;)$Maestria#<init>(Ljava/lang/String;)V
+Grado()Maestria#Grado()I‰
 AdministrativoTeacher$
 Sueldo()Administrativo#Sueldo()IH
 <init>(Ljava/lang/String;)*Administrativo#<init>(Ljava/lang/String;)Vð
@@ -34,10 +35,18 @@ $getGradesWeightSum(Ljava/util/List;)*Pair#getGradesWeightSum(Ljava/util/List;)
 first()Pair#first()Ljava/lang/Object;F
 getGradesSum(Ljava/util/List;)$Pair#getGradesSum(Ljava/util/List;)F+
 second()Pair#second()Ljava/lang/Object;b
-,<init>(Ljava/lang/Object;Ljava/lang/Object;)2Pair#<init>(Ljava/lang/Object;Ljava/lang/Object;)VÖ
+,<init>(Ljava/lang/Object;Ljava/lang/Object;)2Pair#<init>(Ljava/lang/Object;Ljava/lang/Object;)V}
+
+ProfesorTCTeacher 
+Sueldo()ProfesorTC#Sueldo()ID
+<init>(Ljava/lang/String;)&ProfesorTC#<init>(Ljava/lang/String;)Vx
+	DoctoradoStudentC
+<init>(Ljava/lang/String;)%Doctorado#<init>(Ljava/lang/String;)V
+Grado()Doctorado#Grado()I•
 	Principaljava.lang.ObjectK
 isHasToIncreaseOneExtraPoint())Principal#isHasToIncreaseOneExtraPoint()ZA
-main([Ljava/lang/String;)$Principal#main([Ljava/lang/String;)V!
+main([Ljava/lang/String;)$Principal#main([Ljava/lang/String;)V=
+isProfesorTC(LTeacher;)"Principal#isProfesorTC(LTeacher;)Z!
 	<init>(I)Principal#<init>(I)VS
 "calculateGrades(Ljava/util/List;Z)-Principal#calculateGrades(Ljava/util/List;Z)F/
 formatFloat(ZFI)Principal#formatFloat(ZFI)FÖ
@@ -225,15 +234,7 @@ println(C)java.io.PrintStream#println(C)VK
 writeBytes([B)#java.io.PrintStream#writeBytes([B)VU
 <init>(Ljava/io/OutputStream;)3java.io.PrintStream#<init>(Ljava/io/OutputStream;)V/
 println([C) java.io.PrintStream#println([C)V‹
-9<init>(ZLjava/nio/charset/Charset;Ljava/io/OutputStream;)Njava.io.PrintStream#<init>(ZLjava/nio/charset/Charset;Ljava/io/OutputStream;)V:
-Studentjava.lang.Object
-<init>()Student#<init>()Vr
+9<init>(ZLjava/nio/charset/Charset;Ljava/io/OutputStream;)Njava.io.PrintStream#<init>(ZLjava/nio/charset/Charset;Ljava/io/OutputStream;)Vr
 PregadoStudentA
 <init>(Ljava/lang/String;)#Pregado#<init>(Ljava/lang/String;)V
-Grado()Pregado#Grado()Iu
-MaestriaStudentB
-<init>(Ljava/lang/String;)$Maestria#<init>(Ljava/lang/String;)V
-Grado()Maestria#Grado()Ix
-	DoctoradoStudentC
-<init>(Ljava/lang/String;)%Doctorado#<init>(Ljava/lang/String;)V
-Grado()Doctorado#Grado()I
+Grado()Pregado#Grado()I

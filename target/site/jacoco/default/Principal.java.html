@@ -8,17 +8,17 @@ public class Principal {
             new AbstractMap.SimpleImmutableEntry&lt;&gt;(
 <span class="fc" id="L9">                    2020,</span>
 <span class="fc" id="L10">                    List.of(</span>
-<span class="fc" id="L11">                            new Pair&lt;&gt;( new ProfesorTP(&quot;Josefina&quot;), true),</span>
-<span class="fc" id="L12">                            new Pair&lt;&gt;( new ProfesorTP(&quot;Edonisio&quot;), true),</span>
-<span class="fc" id="L13">                            new Pair&lt;&gt;( new ProfesorTP(&quot;Edufasio&quot;), false)</span>
+<span class="fc" id="L11">                            new Pair&lt;&gt;( new ProfesorTC(&quot;Josefina&quot;), true),</span>
+<span class="fc" id="L12">                            new Pair&lt;&gt;( new ProfesorTC(&quot;Edonisio&quot;), true),</span>
+<span class="fc" id="L13">                            new Pair&lt;&gt;( new ProfesorTC(&quot;Edufasio&quot;), false)</span>
                     )
             ),
             new AbstractMap.SimpleImmutableEntry&lt;&gt;(
 <span class="fc" id="L17">                    2019,</span>
 <span class="fc" id="L18">                    List.of(</span>
-<span class="fc" id="L19">                            new Pair&lt;&gt;( new ProfesorTP(&quot;Eduarda&quot;), false),</span>
-<span class="fc" id="L20">                            new Pair&lt;&gt;( new ProfesorTP(&quot;Abelardo&quot;), false),</span>
-<span class="fc" id="L21">                            new Pair&lt;&gt;( new ProfesorTP(&quot;Francisca&quot;), false)</span>
+<span class="fc" id="L19">                            new Pair&lt;&gt;( new ProfesorTC(&quot;Eduarda&quot;), false),</span>
+<span class="fc" id="L20">                            new Pair&lt;&gt;( new ProfesorTC(&quot;Abelardo&quot;), false),</span>
+<span class="fc" id="L21">                            new Pair&lt;&gt;( new ProfesorTC(&quot;Francisca&quot;), false)</span>
                     )
             )
     );
@@ -62,15 +62,15 @@ public class Principal {
 
     private boolean isHasToIncreaseOneExtraPoint() {
 <span class="fc" id="L64">        boolean hasToIncreaseOneExtraPoint = false;</span>
-        //Verificar dar punto extra TRUE
-<span class="fc bfc" id="L66" title="All 2 branches covered.">        for (Map.Entry&lt;Integer, List&lt;Pair&lt;Teacher, Boolean&gt;&gt;&gt; yearlyTeachers : allYearsTeachers.entrySet()) {</span>
-<span class="fc bfc" id="L67" title="All 2 branches covered.">            if (!(yearToCalculate != yearlyTeachers.getKey())) {</span>
-<span class="fc" id="L68">                List&lt;Pair&lt;Teacher, Boolean&gt;&gt; teachers = yearlyTeachers.getValue();</span>
-<span class="fc bfc" id="L69" title="All 2 branches covered.">                for (Pair&lt;Teacher, Boolean&gt; teacher : teachers) {</span>
-<span class="fc bfc" id="L70" title="All 2 branches covered.">                    if (teacher.second() != true) {</span>
-<span class="fc" id="L71">                        continue;</span>
+<span class="fc bfc" id="L65" title="All 2 branches covered.">        for (Map.Entry&lt;Integer, List&lt;Pair&lt;Teacher, Boolean&gt;&gt;&gt; yearlyTeachers : allYearsTeachers.entrySet()) {</span>
+<span class="fc bfc" id="L66" title="All 2 branches covered.">            if (!(yearToCalculate != yearlyTeachers.getKey())) {</span>
+<span class="fc" id="L67">                List&lt;Pair&lt;Teacher, Boolean&gt;&gt; teachers = yearlyTeachers.getValue();</span>
+<span class="fc bfc" id="L68" title="All 2 branches covered.">                for (Pair&lt;Teacher, Boolean&gt; teacher : teachers) {</span>
+<span class="pc bpc" id="L69" title="1 of 4 branches missed.">                    if (teacher.second() != true &amp;&amp; isProfesorTC(teacher.first())) {</span>
+<span class="fc" id="L70">                        continue;</span>
                     }
-<span class="fc" id="L73">                    hasToIncreaseOneExtraPoint = true;</span>
+<span class="fc" id="L72">                    hasToIncreaseOneExtraPoint = true;</span>
+<span class="fc" id="L73">                    System.out.printf(teacher.first().nombre);</span>
 <span class="fc" id="L74">                }</span>
             } else {
                 continue;
@@ -78,9 +78,12 @@ public class Principal {
 <span class="fc" id="L78">        }</span>
 <span class="fc" id="L79">        return hasToIncreaseOneExtraPoint;</span>
     }
+    public boolean isProfesorTC(Teacher prTeacher){
+<span class="pc bpc" id="L82" title="1 of 2 branches missed.">        return prTeacher.getClass() == ProfesorTC.class ? true: false;</span>
+    }
 
     public static void main(String[] args) {
-<span class="nc" id="L83">        System.out.println(&quot;Hola&quot;);</span>
-<span class="nc" id="L84">    }</span>
+<span class="nc" id="L86">        System.out.println(&quot;Hola&quot;);</span>
+<span class="nc" id="L87">    }</span>
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.6.202009150832</span></div></body></html>

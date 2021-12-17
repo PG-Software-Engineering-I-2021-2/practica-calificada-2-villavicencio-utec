@@ -1,3 +1,5 @@
+package practica2;
+
 abstract public  class Teacher {
     int salarioBaseMensual =2000;
     int comision = 500;

@@ -1,7 +1,9 @@
+package practica2;
+
 public class Maestria extends  Student{
-    private String _Nombre ;
+    private String nombre ;
     Maestria(String nombre){
-        this._Nombre =nombre;
+        this.nombre =nombre;
     }
     public int Grado(){
         return notaBase + 1;

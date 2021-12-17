@@ -1,3 +1,5 @@
+package practica2;
+
 import java.util.List;
 
 public final class Pair<FirstType, SecondType> {

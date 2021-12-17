@@ -1,6 +1,9 @@
+package practica2;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import practica2.Pair;
+import practica2.Principal;
 
 import java.util.Collections;
 import java.util.List;
